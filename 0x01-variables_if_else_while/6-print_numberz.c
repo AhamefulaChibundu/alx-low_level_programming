@@ -13,8 +13,8 @@ int main(void)
 	for (numbers = 48; numbers <= 57; numbers++)
 
 	{
-		printf("%c", numbers);
+		putchar(numbers);
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
