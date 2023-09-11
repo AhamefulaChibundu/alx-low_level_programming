@@ -8,22 +8,22 @@
 
 int main(void)
 {
-	int number_1;
-	int number_2;
-	int number_3;
+	int n_1;
+	int n_2;
+	int n_3;
 
-	for (number_1  = 0; number_1 <= 9; number_1++)
+	for (n_1  = 0; n_1 <= 9; n_1++)
 	{
-		for (number_2 = 0; number_2 <= 9; number_2++)
+		for (n_2 = 0; n_2 <= 9; n_2++)
 		{
-			for (number_3 = 0; number_3 <= 9; number_3++)
+			for (n_3 = 0; n_3 <= 9; n_3++)
 			{
-				if (number_1 != number_2 && number_2 != number_3 && number_1 < number_2 && number_2 < number_3)
+				if (n_1 != n_2 && n_2 != n_3 && n_1 < n_2 && n_2 < n_3)
 				{
-					putchar(number_1 + 48);
-					putchar(number_2 + 48);
-					putchar(number_3 + 48);
-					if (number_2 + number_1 + number_3 != 24)
+					putchar(n_1 + 48);
+					putchar(n_2 + 48);
+					putchar(n_3 + 48);
+					if (n_2 + n_1 + n_3 != 24)
 					{
 						putchar(',');
 						putchar(' ');
