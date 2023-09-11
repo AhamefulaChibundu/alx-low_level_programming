@@ -12,16 +12,19 @@ int main(void)
 
 	int number_2;
 
-	for (number_1  = 48; number_1 <= 57; number_1++)
+	for (number_1  = 0; number_1 <= 9; number_1++)
 	{
-		for (number_2 = 48; number_2 <= 57; number_2++)
+		for (number_2 = 0; number_2 <= 9; number_2++)
 		{
 			if ((number_1 != number_2) && (number_1 < number_2))
 			{
-				putchar(number_1);
-				putchar(number_2);
-				putchar(',');
-				putchar(' ');
+				putchar(number_1 + 48);
+				putchar(number_2 + 48);
+				if (number_2 + number_1 != 17)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
