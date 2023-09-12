@@ -8,28 +8,31 @@
 
 int main(void)
 {
-	int n_1;
-	int n_2;
-	int n_3;
-	int n_4;
+	int n_1 = 0;
 
-	for (n_1 = 0; n_1 <= 9; n_1++)
+	while (n_1 <= 99)
 	{
-		for (n_2 = 0; n_2 <= 9; n_2++)
+		int n_2 = 0;
+
+		while (n_2 <= 99)
 		{
-			putchar(n_1 + 48);
-			putchar(n_2 + 48);
+			if (n_2 != n_1)
+			{
+				putchar((n_1 / 10) + 48);
+				putchar((n_1 % 10) + 48);
+				putchar(' ');
+				putchar((n_2 / 10) + 48);
+				putchar((n_2 % 10) + 48);
+
+				if (n_1 + n_2 != 197)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+			++n_2;
 		}
-	}
-	for (n_3 = 0; n_3 <= 9; n_3++)
-	{
-		for (n_4 = 0; n_4 <= 9; n_4++)
-		{
-			putchar(n_3 + 48);
-			putchar(n_4 + 48);
-			putchar(',');
-			putchar(' ');
-		}
+		++n_1;
 	}
 	putchar('\n');
 	return (0);
