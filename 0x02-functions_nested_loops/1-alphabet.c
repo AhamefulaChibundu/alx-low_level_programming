@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  *
- * Note: Function to print the lowercase alphabets
+ * Description: Function to print the lowercase alphabets
  */
 
 void print_alphabet(void)
