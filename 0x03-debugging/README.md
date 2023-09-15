@@ -1,3 +1,2 @@
 # DEBUGGING
-
 Debugging is simply checking and removing bugs from your code. Bugs are errors which makes your code or program not to function properly in the way it's supposed to. As a programmer or a Software Engineer, you should be able to debug your codes. you could do this by explaining out loud to a rubber duck or any object of your choice as you tend to get more understanding of why your code is not running the way it should and then you will be able to fix it.
