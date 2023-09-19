@@ -2,7 +2,7 @@
 /**
  * puts2 - Entry point
  *
- * Description: Prints every other character of a string starting with first character
+ * Description: Prints every other character of a string
  * @str: string to be printed
  */
 
