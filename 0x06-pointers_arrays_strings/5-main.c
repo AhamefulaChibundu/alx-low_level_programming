@@ -6,7 +6,7 @@
  *
  * Return: Always 0.
  */
-char *string_toupper(char *);
+char *string_toupper(char *str);
 
 int main(void)
 {
