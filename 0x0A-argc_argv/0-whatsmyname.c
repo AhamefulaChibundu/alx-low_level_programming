@@ -11,8 +11,6 @@
 
 int main(int a, char *c[])
 {
-	(void) a;
-
-	printf("%s\n", c[0]);
+	printf("%s\n", c[a * 0]);
 	return (0);
 }
