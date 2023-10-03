@@ -3,7 +3,7 @@
 
 /**
  * main - Entry point
- * Description: prints it's name followed by a new line
+ * Description: prints it's name followed by a new line.
  * @a: argc (argument count)
  * @c: argv (argument vector or value)
  * Return: 0
