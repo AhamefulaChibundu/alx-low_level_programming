@@ -3,14 +3,15 @@
 
 /**
  * main - Entry point
- * Description: prints it's name followed by a new line.
- * @a: argc (argument count)
- * @c: argv (argument vector or value)
+ * Description: prints the name of the program
+ * @argc: argument count
+ * @argv: Argument vector
  * Return: 0
  */
 
-int main(int a, char *c[])
+int main(int argc, char *argv[])
 {
-	printf("%s\n", c[a * 0]);
+	printf("%s\n", argv[argc * 0]);
+
 	return (0);
 }
