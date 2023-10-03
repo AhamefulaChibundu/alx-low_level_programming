@@ -28,9 +28,8 @@ int main(int a, char *c[])
 					printf("Error\n");
 					return (1);
 				}
-				else
-					sum = sum + atoi(c[m]);
 			}
+			sum = sum + atoi(c[m]);
 		}
 		printf("%d\n", sum);
 	}
