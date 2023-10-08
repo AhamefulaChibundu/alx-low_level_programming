@@ -33,8 +33,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		for (m = 0; s1[m] != '\0'; m++)
 			cat_str[m] = s1[m];
 		for (m = 0; s2[m] != '\0'; m++)
-			cat_str[s2_len + m] = s2[m];
-		cat_str[s2_len + m] = '\0';
+			cat_str[s1_len + m] = s2[m];
+		cat_str[s1_len + m] = '\0';
 	}
 	else
 	{
