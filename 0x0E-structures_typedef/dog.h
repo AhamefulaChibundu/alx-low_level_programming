@@ -1,8 +1,13 @@
 #ifndef DOG_H
 #define DOG_H
 
+
+/*
+ * File: dog.h
+ * Description: Header file that defines a new type struct with tagname dog.
+ */
+
 /**
- * File: dog.h file defines a new type of struct with tagname dog
  * struct dog - A new type describing a dog.
  * @name: The name of the dog.
  * @age: The age of the dog.
@@ -16,6 +21,6 @@ struct dog
 	char *owner;
 };
 
-struct dog my_dog;
+typedef struct dog my_dog;
 
 #endif
