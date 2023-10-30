@@ -3,7 +3,7 @@
 void _close(int arg_files);
 
 /**
- * main - Entry point 
+ * main - Entry point
  * @argv: Array pointer for arguments
  * @argc: Number of arguments
  * Return: 0
